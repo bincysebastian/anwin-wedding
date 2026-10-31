@@ -1,0 +1,17 @@
+{
+  "name": "Anwin & Bia | Wedding Invitation",
+  "short_name": "Anwin & Bia",
+  "description": "Save the date — January 4th, 2027. Anwin & Bia wedding invitation and RSVP.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fffefa",
+  "theme_color": "#fffefa",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
