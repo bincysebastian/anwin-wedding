@@ -37,7 +37,7 @@ export const families = {
   bride: "Bia Maria Jacob",
   brideParents: "D/o Mrs. Lijimol James and Mr. Jacob Sebastian",
   brideGrandparents: [
-    "Grand D/o Mrs. Mariyakutty Devasia & Late Mr. Chacko Devasia",
+    "Grand D/o Mrs. Mariyakutty Devasia & Late Mr. Devasia Chacko",
     "&",
     "Late Mrs. Leelama Chacko & Late Mr. Chacko Varkey",
   ],
@@ -50,7 +50,8 @@ export const warmestWishes = {
   title: "With Love & Joy",
   lines: [
     "We would like to invite you to celebrate our wedding day with us.",
-    "Your presence would make our special day even more meaningful. We hope you can join us as we begin this beautiful journey together. WITH LOVE,",
+    "Your presence would make our special day even more meaningful. We hope you can join us as we begin this beautiful journey together.",
+    "WITH LOVE",
   ],
   couple: "Anwin Sony & Bia Maria Jacob",
 };
@@ -110,9 +111,9 @@ export const storyChapters: {
     year: "2016",
     title: "The Day We Met",
     copy: "It all began with a simple meeting in 2016. Little did we know that this ordinary moment would become the beginning of a story that life would beautifully bring back to us.",
-    image: `${P}/story-2016.jpg`,
-    crop: { left: -1.1, top: -18.29, width: 103.93, height: 268.9 },
-    mobileCrop: { left: -0.99, top: -17.98, width: 102.65, height: 261.24 },
+    image: `${P}/side-1.jpg`,
+    crop: { left: 0, top: -113.9, width: 100, height: 258.8 },
+    mobileCrop: { left: 0, top: -110, width: 100, height: 252.8 },
     position: 161.25 / 660,
   },
   {
