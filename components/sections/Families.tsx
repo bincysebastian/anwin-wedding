@@ -13,7 +13,11 @@ export function Families() {
       <div className="mx-auto flex max-w-[1200px] flex-col items-center text-center text-forest">
         <Reveal className="flex flex-col items-center">
           <p className={label}>{f.grandparentsLabel}</p>
-          <p className={`mt-3 lg:mt-4 ${script}`}>{f.grandparents}</p>
+          <div className={`mt-3 lg:mt-4 ${script}`}>
+            {f.grandparents.map((line) => (
+              <p key={line}>{line}</p>
+            ))}
+          </div>
           <p className={`mt-7 lg:mt-12 ${label}`}>{f.parentsLabel}</p>
           <p className={`mt-3 lg:mt-4 ${script}`}>{f.parents}</p>
           <p className={`mt-3 lg:mt-10 ${house}`}>{f.groomHouse}</p>

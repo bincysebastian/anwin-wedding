@@ -27,7 +27,11 @@ export const navLinks = [
 
 export const families = {
   grandparentsLabel: "Together with the blessings of our grandparents",
-  grandparents: "Late Mr. K C Varghese & Late Mrs. Aleyamma Varghese",
+  grandparents: [
+    "Late Mr. K C Varghese & Late Mrs. Aleyamma Varghese",
+    "&",
+    "Late Mr. PK Joseph Palachuvattil & Aliyamma Joseph",
+  ],
   parentsLabel: "And the love of our parents",
   parents: "Late Mr. Sony Varghese & Mrs. Jolly Sony",
   groomHouse: "Kappil Koippally House, Punnakunnam, Alappuzha",
