@@ -154,7 +154,7 @@ export const itineraryStops: {
     title: "Ceremony Begins",
     copy: "Join us as we exchange heartfelt vows and begin a beautiful new chapter, surrounded by the people we love most in the world.",
     details: [
-      { label: "Ceremony", value: "4:00 pm" },
+      { label: "Ceremony", value: "4:30 pm" },
       { label: "Reception", value: "6:30 pm" },
     ],
     image: `${F}/day-ceremony.png`,
